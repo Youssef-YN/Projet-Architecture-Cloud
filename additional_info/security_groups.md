@@ -1,21 +1,21 @@
-# Security Group Rules
+# Règles de groupes de securité
 
-## Main Security Group - Wazuh Manager
+## SG - Wazuh-Server
 
 | Port | Protocol | Source | Description |
 |------|----------|--------|-------------|
 | 22 | TCP | Admin IP | SSH Access |
 | 443 | TCP | Admin IP | Dashboard Access |
-| 1514 | TCP | Client Security Group | Logs and Events |
-| 1515 | TCP | Client Security Group | Agent Enrollment |
+| 1514 | TCP | Les SG des clients | Logs and Events |
+| 1515 | TCP | Les SG des clients | Agent Enrollment |
 
-## SSH Access Security Group
+## SG - Linux-Client
 
 | Port | Protocol | Source | Description |
 |------|----------|--------|-------------|
 | 22 | TCP | Admin IP | SSH Remote Access |
 
-## RDP Access Security Group
+## SG - Windows-Client
 
 | Port | Protocol | Source | Description |
 |------|----------|--------|-------------|
