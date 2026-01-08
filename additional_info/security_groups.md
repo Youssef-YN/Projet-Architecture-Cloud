@@ -1,8 +1,8 @@
-\# Security Group Rules
+# Security Group Rules
 
 
 
-\## Main Security Group - Wazuh Manager
+## Main Security Group - Wazuh Manager
 
 
 
@@ -20,7 +20,7 @@
 
 
 
-\## SSH Access Security Group
+## SSH Access Security Group
 
 
 
@@ -32,7 +32,7 @@
 
 
 
-\## RDP Access Security Group
+## RDP Access Security Group
 
 
 
